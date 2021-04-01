@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+  font-family: 'Roboto';
+}
+
+.section{
+  display: flex;
+  border-radius: 64px;
+  width: 1400px;
+  height: 600px;
+  margin: 0 auto 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+  background: url('https://cdn.dribbble.com/users/156849/screenshots/6993098/32.gif');
+  background-size: cover;
+}
+
+#left-side{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-family: 'Pacifico';
+  font-size: 72px;
+}
+
+#header-content{
+  color: white;
+  font-size: 26px;
+}
+
+#right-side{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#right-img{
+  max-width: 75%;
+}
+
+.element{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vw;
+  margin: 8px;
+  padding: 16px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 16px;
+  transform: scale(1);
+  transition: transform 0.5s, background 1s;
+}
+
+.element:hover{
+  background-color: rgba(0,0,0,0.8);
+  transform: scale(1.05);
+  transition: transform 0.5s, background 1s;
+}
+
+.element-shadow{
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.element-image{
+  max-height: 50%;
+  max-width: 60%;
+  margin: auto;
+}
+
+.element-text{
+  font-size: 32px;
+  color: white;
+}
+
+#contact-text{
+  color: white;
+  font-size: 44px;
+}
+
+input{
+  width: 100%;
+}
+
+label{
+  color: white;
+}
